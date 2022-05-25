@@ -1,5 +1,5 @@
 
-> Open this page at [https://thediamonder11.github.io/microbit-1/](https://thediamonder11.github.io/microbit-1/)
+> Open this page at [https://thediamonder11.github.io/MicroBit-1/](https://thediamonder11.github.io/MicroBit-1/)
 
 ## Use as Extension
 
