@@ -1,4 +1,17 @@
 def on_forever():
-    basic.show_icon(IconNames.SMALL_HEART)
-    basic.show_icon(IconNames.HEART)
+    basic.show_leds("""
+        # . # . #
+                . # . # .
+                # . # . #
+                . # . # .
+                # . # . #
+    """)
+    basic.show_leds("""
+        . # . # .
+                # . # . #
+                . # . # .
+                # . # . #
+                . # . # .
+    """)
 basic.forever(on_forever)
+basic.show_string("L")
