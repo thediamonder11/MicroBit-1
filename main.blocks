@@ -1,13 +1,37 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="6oJYPvWs9ZPOi)daeE[g" x="310" y="37"><statement name="HANDLER"><block type="device_show_leds" id="Rf3E^g~z%daRUN:+Y28l"><field name="LEDS">`
-        # . # . # 
-        . # . # . 
-        # . # . # 
-        . # . # . 
-        # . # . #
-        `</field><next><block type="device_show_leds" id="8yCa+i$4r`9tMn75NKBe"><field name="LEDS">`
-        . # . # . 
-        # . # . # 
-        . # . # . 
-        # . # . # 
-        . # . # .
-        `</field></block></next></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="3^@oGP!pAB|um8WdL49;" x="34" y="36"><statement name="HANDLER"><block type="turtleSetPosition" id=";og*??Ou9hi.yo#A,a.`"><value name="x"><shadow type="math_number_minmax" id="h!XS/ERGqi8ck#hjSksR"><mutation min="0" max="4" label="Number" precision="0"/><field name="SLIDER">0</field></shadow></value><value name="y"><shadow type="math_number_minmax" id="e0l1I$-Zn=;D95KM`G}9"><mutation min="0" max="4" label="Number" precision="0"/><field name="SLIDER">0</field></shadow></value><next><block type="turtleSetBrightness" id="u)2nDnxF@O7;#,!cKja*"><value name="brightness"><shadow type="math_number_minmax" id=".Urf_{jHKVu{CX(GA#Rm"><mutation min="0" max="255" label="Brightness" precision="0"/><field name="SLIDER">255</field></shadow></value><next><block type="turtleTurnRight" id="PCItW5%Vr^~Dx^2r%hB~"><next><block type="turtlePen" id="}8.{W=47Aq`H+_JcT-Nv"><field name="mode">TurtlePenMode.Down</field><next><block type="turtleForward" id="[ArIjRXUo,]+Lp^_*+K$"><value name="steps"><shadow type="math_number" id="{3p5OEetlT`{Q223?wC."><field name="NUM">4</field></shadow></value><next><block type="turtleTurnRight" id="!!_nvrP$ElZ*I{zmg_5d"><next><block type="turtleForward" id="9#eDkV5L(;?=~un]0hsh"><value name="steps"><shadow type="math_number" id="+_]a{(vCWK3$6C(3bBs5"><field name="NUM">4</field></shadow></value><next><block type="turtleTurnRight" id="62bFE!Ke!;;8lJpdM)I3"><next><block type="turtleForward" id="Z6W6#76!j)?Pa$:iE_yf"><value name="steps"><shadow type="math_number" id="xdM$L_)Q~3i4|n2wL.a^"><field name="NUM">4</field></shadow></value><next><block type="turtleTurnRight" id="5;m.dGcc#:P.CR,s9bh["><next><block type="turtleForward" id="0TX|cq#Pz3V_l:i8[7Q5"><value name="steps"><shadow type="math_number" id="az+:2NZ(tRTT|s/f*_K]"><field name="NUM">4</field></shadow></value><next><block type="turtlePen" id="p;@0r-Hc1m(lYZ0E_eBi"><field name="mode">TurtlePenMode.Up</field><next><block type="device_pause" id="sgp1^DFrv2MKqvJk?gl:"><value name="pause"><shadow type="timePicker" id="[GJt:lX~=V^lBR[)07F%"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="i)al7I%g%e=G+}/0T0oV"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="2l{Ri(SYqo)QQ|PBU0:3"><field name="LEDS">`
+        # # # # . 
+        # . . # . 
+        # . . # . 
+        # . . # . 
+        # # # # .
+        `</field><next><block type="device_show_leds" id="#HVI|-5$_8=#1O3PcFyL"><field name="LEDS">`
+        # # # . . 
+        # . # . . 
+        # . # . . 
+        # . # . . 
+        # # # . .
+        `</field><next><block type="device_show_leds" id="Y9:-K~43YThNzfEk,xGL"><field name="LEDS">`
+        # # . . . 
+        # # . . . 
+        # # . . . 
+        # # . . . 
+        # # . . .
+        `</field><next><block type="device_show_leds" id="Q-X;PD/vNpr!rAnf*Kb@"><field name="LEDS">`
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . .
+        `</field><next><block type="device_show_leds" id="fo5Ska%|iJ9l!/9y;L%f"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
